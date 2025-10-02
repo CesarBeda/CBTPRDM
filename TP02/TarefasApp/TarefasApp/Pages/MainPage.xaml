@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarefasApp.Pages.MainPage"
+             Title="Minhas Tarefas"
+             BackgroundColor="#333333">
+    <Grid RowDefinitions="*, Auto">
+
+        <CollectionView x:Name="tasksCollectionView"
+                        Grid.Row="0"
+                        SelectionMode="Single"
+                        SelectionChanged="OnTaskSelected">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="15,10" ColumnDefinitions="Auto, *, Auto">
+
+                        <CheckBox Grid.Column="0" VerticalOptions="Center" />
+
+                        <VerticalStackLayout Grid.Column="1" 
+                                             VerticalOptions="Center" 
+                                             Margin="15,0">
+                            <Label Text="{Binding Title}" 
+                                   TextColor="White" 
+                                   FontSize="Medium" 
+                                   FontAttributes="Bold" />
+                            <Label Text= "{Binding CreationDate, StringFormat='Criado em: {0:dd/MM/yyyy}'}" 
+                                   TextColor="LightGray" 
+                                   FontSize="Small" />
+                        </VerticalStackLayout>
+
+                        <Border Grid.Column="2"
+                                StrokeShape="RoundRectangle 8"
+                                Padding="10,5"
+                                HorizontalOptions="End"
+                                VerticalOptions="Center">
+
+                            <Border.Triggers>
+                                <DataTrigger TargetType="Border" Binding="{Binding Priority}" Value="Alta">
+                                    <Setter Property="BackgroundColor" Value="Red" />
+                                </DataTrigger>
+                                <DataTrigger TargetType="Border" Binding="{Binding Priority}" Value="Média">
+                                    <Setter Property="BackgroundColor" Value="Orange" />
+                                </DataTrigger>
+                                <DataTrigger TargetType="Border" Binding="{Binding Priority}" Value="Baixa">
+                                    <Setter Property="BackgroundColor" Value="Green" />
+                                </DataTrigger>
+                            </Border.Triggers>
+
+                            <Label Text="{Binding Priority}" TextColor="White" FontSize="Micro" />
+                        </Border>
+
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Adicionar Tarefa"
+                Grid.Row="1"
+                Margin="10"
+                Clicked="OnAddTaskClicked" />
+    </Grid>
+
+</ContentPage>

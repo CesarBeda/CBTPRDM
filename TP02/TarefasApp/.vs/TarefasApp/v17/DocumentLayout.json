@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\pages\\addandedit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\pages\\addandedit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\pages\\addandedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\pages\\addandedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\pages\\detailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\pages\\detailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\pages\\detailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\pages\\detailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|c:\\users\\cesar\\source\\repos\\tarefasapp\\tarefasapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99B98A6A-3C69-4FFA-9CF8-D6844D500585}|TarefasApp\\TarefasApp.csproj|solutionrelative:tarefasapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "TarefasApp\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "TarefasApp\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T20:20:09.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\App.xaml",
+              "RelativeDocumentMoniker": "TarefasApp\\App.xaml",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\App.xaml",
+              "RelativeToolTip": "TarefasApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T20:20:01.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TarefasApp\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Services\\TaskService.cs",
+              "RelativeToolTip": "TarefasApp\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwA0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:46:07.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "TarefasApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\AppShell.xaml",
+              "RelativeToolTip": "TarefasApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T14:27:22.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Task.cs",
+              "RelativeDocumentMoniker": "TarefasApp\\Task.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Task.cs",
+              "RelativeToolTip": "TarefasApp\\Task.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:14:34.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TarefasApp\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "TarefasApp\\Pages\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T14:21:00.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "TarefasApp\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "TarefasApp\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:47:28.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddAndEdit.xaml",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\AddAndEdit.xaml",
+              "RelativeDocumentMoniker": "TarefasApp\\Pages\\AddAndEdit.xaml",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\AddAndEdit.xaml",
+              "RelativeToolTip": "TarefasApp\\Pages\\AddAndEdit.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T14:25:41.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddAndEdit.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\AddAndEdit.xaml.cs",
+              "RelativeDocumentMoniker": "TarefasApp\\Pages\\AddAndEdit.xaml.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\AddAndEdit.xaml.cs",
+              "RelativeToolTip": "TarefasApp\\Pages\\AddAndEdit.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:04:25.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\DetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "TarefasApp\\Pages\\DetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\DetailsPage.xaml.cs",
+              "RelativeToolTip": "TarefasApp\\Pages\\DetailsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:50:32.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\DetailsPage.xaml",
+              "RelativeDocumentMoniker": "TarefasApp\\Pages\\DetailsPage.xaml",
+              "ToolTip": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\Pages\\DetailsPage.xaml",
+              "RelativeToolTip": "TarefasApp\\Pages\\DetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T14:24:31.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

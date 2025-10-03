@@ -9,8 +9,8 @@
            FontSize="Title"
            FontAttributes="Bold"
            HorizontalTextAlignment="Center"
-           Margin="0,0,0,20" 
-           TextColor="MediumOrchid"/>
+           Margin="0,0,0,10" 
+           TextColor="#9b8cda"/>
         
         <Label Text="Título da Tarefa" />
         <Entry x:Name="TitleEntry" Placeholder="Digite o título da tarefa..." />

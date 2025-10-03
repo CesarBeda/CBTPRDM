@@ -26140,11 +26140,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\TarefasApp.csproj",
+      "projectUniqueName": "C:\\Users\\cesar\\OneDrive\\Documentos\\MeusProjetos\\CBTPRDM\\TP02\\TarefasApp\\TarefasApp\\TarefasApp.csproj",
       "projectName": "TarefasApp",
-      "projectPath": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\TarefasApp.csproj",
+      "projectPath": "C:\\Users\\cesar\\OneDrive\\Documentos\\MeusProjetos\\CBTPRDM\\TP02\\TarefasApp\\TarefasApp\\TarefasApp.csproj",
       "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cesar\\source\\repos\\TarefasApp\\TarefasApp\\obj\\",
+      "outputPath": "C:\\Users\\cesar\\OneDrive\\Documentos\\MeusProjetos\\CBTPRDM\\TP02\\TarefasApp\\TarefasApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

@@ -28,7 +28,7 @@ public partial class DetailsPage : ContentPage
 
     private async void OnDeleteClicked(object sender, EventArgs e)
     {
-        bool confirm = await DisplayAlert("Confirm Deletion", $"Are you sure you want to delete the task '{_task.Title}'?", "Yes", "No");
+        bool confirm = await DisplayAlert("Confirmação de Apagamento", $"Tem a certeza de que deseja eliminar a tarefa '{_task.Title}'?", "Sim", "Não");
 
         if (confirm)
         {

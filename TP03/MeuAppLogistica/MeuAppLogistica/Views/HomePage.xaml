@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:MeuAppLogistica.ViewModels"
+             x:Class="MeuAppLogistica.Views.HomePage"
+             Title="Rastreamento de Pacotes">
+
+    <StackLayout Padding="30" VerticalOptions="Center">
+        <Label Text="Insira o Código de Rastreio"
+               FontSize="22"
+               HorizontalOptions="Center" />
+        <Label Text="Ex: BR123456 ou BR654321"
+               FontSize="14"
+               TextColor="Gray"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"/>
+
+        <Entry Text="{Binding TrackingCode}"
+               Placeholder="Seu código aqui"
+               FontSize="18"/>
+
+        <Button Text="Rastrear Pacote"
+                Command="{Binding SearchCommand}"
+                FontSize="18"
+                Margin="0,20,0,0" />
+    </StackLayout>
+
+</ContentPage>

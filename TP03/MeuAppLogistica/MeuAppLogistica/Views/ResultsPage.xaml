@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:MeuAppLogistica.Models"
+             x:Class="MeuAppLogistica.Views.ResultsPage"
+             Title="Detalhes do Pacote">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <Label Text="{Binding Package.TrackingId}"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Label Text="{Binding Package.Status}"
+                   FontSize="20"
+                   TextColor="Green"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Center" />
+
+            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto" Padding="10" ColumnSpacing="10">
+                <Label Text="Data de Envio:" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" />
+                <Label Text="{Binding Package.ShipDate, StringFormat='{0:dd/MM/yyyy}'}" Grid.Row="0" Grid.Column="1" />
+
+                <Label Text="Previsão de Entrega:" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" />
+                <Label Text="{Binding Package.EstimatedDelivery, StringFormat='{0:dd/MM/yyyy}'}" Grid.Row="1" Grid.Column="1" />
+            </Grid>
+
+            <Label Text="Histórico de Eventos"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Margin="0,15,0,5" />
+
+            <CollectionView ItemsSource="{Binding Package.History}">
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:TrackingEvent">
+
+                        <Border StrokeShape="RoundRectangle 8" BackgroundColor="{StaticResource Gray600}">
+
+                            <StackLayout Padding="10" Spacing="10">
+                                <Label FontAttributes="Bold">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding Timestamp, StringFormat='{0:dd/MM/yyyy HH:mm}'}" />
+                                            <Span Text=" - " />
+                                            <Span Text="{Binding Location}" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label Text="{Binding Description}" />
+                            </StackLayout>
+                        </Border>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Livros"
+    x:Class="P02.Views.LivrosPage"
+    BackgroundColor="{StaticResource Gray100}">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Button Text="Adicionar Novo Livro"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                CornerRadius="8"
+                Clicked="NovoLivro_Clicked" />
+
+        <CollectionView x:Name="ListaLivros">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame 
+                        BorderColor="{StaticResource Gray300}"
+                        BackgroundColor="White"
+                        CornerRadius="10"
+                        Padding="15"
+                        HasShadow="True">
+
+                        <VerticalStackLayout Spacing="8">
+
+                            <Label Text="{Binding Nome}" 
+                                   FontAttributes="Bold"
+                                   TextColor="{StaticResource PrimaryDark}" 
+                                   FontSize="18"/>
+
+                            <Label Text="{Binding Autor}" 
+                                   TextColor="{StaticResource Gray600}"/>
+                            <Label Text="{Binding EmailAutor}" 
+                                   TextColor="{StaticResource Gray600}"/>
+                            <Label Text="{Binding ISBN}" 
+                                   TextColor="{StaticResource Gray600}"/>
+
+                            <HorizontalStackLayout Spacing="10" Margin="0,10,0,0">
+                                <Button Text="Editar"
+                                        BackgroundColor="{StaticResource Primary}"
+                                        TextColor="White"
+                                        CornerRadius="6"
+                                        Clicked="Editar_Clicked"/>
+
+                                <Button Text="Excluir"
+                                        BackgroundColor="Transparent"
+                                        TextColor="Red"
+                                        BorderColor="Red"
+                                        BorderWidth="1"
+                                        CornerRadius="6"
+                                        Clicked="Excluir_Clicked"/>
+                            </HorizontalStackLayout>
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

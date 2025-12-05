@@ -1,0 +1,73 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = P02
+build_property.ProjectDir = C:\Users\Lucas\source\repos\IFSP_6_PRDM\PO2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/Views/CreditosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.Views.CreditosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CreditosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CreditosPage.xaml
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/Views/LivroFormPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.Views.LivroFormPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LivroFormPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LivroFormPage.xaml
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/Views/LivrosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.Views.LivrosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LivrosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LivrosPage.xaml
+
+[C:/Users/Lucas/source/repos/IFSP_6_PRDM/PO2/Views/LocalizacaoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P02.Views.LocalizacaoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LocalizacaoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LocalizacaoPage.xaml

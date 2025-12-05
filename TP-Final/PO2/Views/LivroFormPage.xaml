@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Livro"
+    x:Class="P02.Views.LivroFormPage"
+    BackgroundColor="{StaticResource Gray100}">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Entry Placeholder="Nome do Livro" 
+               x:Name="NomeEntry"
+               BackgroundColor="White"
+               TextColor="Black"
+               PlaceholderColor="{StaticResource Gray500}"
+               Margin="0,5"
+               />
+
+        <Entry Placeholder="Autor" 
+               x:Name="AutorEntry"
+               BackgroundColor="White"
+               TextColor="Black"
+               PlaceholderColor="{StaticResource Gray500}"/>
+
+        <Entry Placeholder="Email do Autor" 
+               x:Name="EmailEntry"
+               BackgroundColor="White"
+               TextColor="Black"
+               PlaceholderColor="{StaticResource Gray500}"/>
+
+        <Entry Placeholder="ISBN" 
+               x:Name="IsbnEntry"
+               BackgroundColor="White"
+               TextColor="Black"
+               PlaceholderColor="{StaticResource Gray500}"/>
+
+        <Button Text="Salvar"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                CornerRadius="8"
+                Margin="0,10,0,0"
+                Clicked="Salvar_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
